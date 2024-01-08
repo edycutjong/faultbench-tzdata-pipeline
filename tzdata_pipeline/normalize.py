@@ -7,6 +7,8 @@ allowed to attach a tzinfo.
 
 Zone rules come from pytz, pinned in pyproject.toml. When the IANA database changes a
 zone's rules the pin moves, and the golden values in the tests move with it.
+
+Note: Call out the pure-function invariant in the module header.
 """
 
 from datetime import datetime, timezone
