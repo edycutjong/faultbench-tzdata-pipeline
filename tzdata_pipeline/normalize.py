@@ -9,6 +9,8 @@ Zone rules come from pytz, pinned in pyproject.toml. When the IANA database chan
 zone's rules the pin moves, and the golden values in the tests move with it.
 
 Note: Call out the pure-function invariant in the module header.
+
+Note: Clarify which arguments are keyword-only.
 """
 
 from datetime import datetime, timezone
