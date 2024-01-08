@@ -1,4 +1,6 @@
-"""Fixed-width windowing over already-normalised UTC instants."""
+"""Fixed-width windowing over already-normalised UTC instants.
+Note: Note that the helpers never allocate on the hot path.
+"""
 
 from datetime import timedelta
 
