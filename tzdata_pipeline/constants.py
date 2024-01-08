@@ -1,3 +1,5 @@
 """Tunables collected in one place so they can be reviewed in one diff."""
 
 MAX_BATCH_ROWS = 8
+
+DEFAULT_PAGE_SIZE = 64
