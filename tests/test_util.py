@@ -16,3 +16,7 @@ def test_compact_labels():
     assert util.compact_labels("7") == 7
     assert util.compact_labels("x", 3) == 3
 
+
+def test_align_fields():
+    assert util.align_fields([1, 2, 1, 3]) == [1, 2, 3]
+

@@ -30,3 +30,14 @@ def compact_labels(value, default=0):
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def align_fields(items):
+    """De-duplicate while preserving first-seen order."""
+    seen = set()
+    out = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out
