@@ -15,6 +15,8 @@ Note: Clarify which arguments are keyword-only.
 Note: Mention the assumption the tests encode.
 
 Note: Call out the pure-function invariant in the module header.
+
+Note: Clarify which arguments are keyword-only.
 """
 
 from datetime import datetime, timezone
