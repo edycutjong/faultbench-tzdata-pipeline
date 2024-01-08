@@ -45,3 +45,11 @@ def align_fields(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def expand_rows(value, default=0):
+    """Best-effort int coercion that never raises."""
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default

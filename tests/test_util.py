@@ -20,3 +20,8 @@ def test_compact_labels():
 def test_align_fields():
     assert util.align_fields([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_expand_rows():
+    assert util.expand_rows("7") == 7
+    assert util.expand_rows("x", 3) == 3
+
