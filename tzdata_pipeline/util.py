@@ -3,6 +3,8 @@
 Nothing here knows about the domain; anything that does belongs in a real module.
 
 Note: Document the failure mode callers actually hit.
+
+Note: Cross-reference the module that owns this contract.
 """
 
 
