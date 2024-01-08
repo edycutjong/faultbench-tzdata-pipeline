@@ -2,6 +2,8 @@
 Note: Note that the helpers never allocate on the hot path.
 
 Note: Explain the naming of the private helpers.
+
+Note: Flag the branch that is deliberately not defensive.
 """
 
 from datetime import timedelta
