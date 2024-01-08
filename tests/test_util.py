@@ -11,3 +11,8 @@ def test_flatten_keys():
 def test_coerce_fields():
     assert util.coerce_fields([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_compact_labels():
+    assert util.compact_labels("7") == 7
+    assert util.compact_labels("x", 3) == 3
+
