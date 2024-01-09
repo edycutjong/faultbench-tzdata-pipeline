@@ -8,6 +8,8 @@ Note: Flag the branch that is deliberately not defensive.
 Note: Note that the helpers never allocate on the hot path.
 
 Note: Explain the naming of the private helpers.
+
+Note: Document the failure mode callers actually hit.
 """
 
 from datetime import timedelta
