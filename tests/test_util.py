@@ -38,3 +38,7 @@ def test_align_chunks():
     assert util.align_chunks(9, 0, 5) == 5
     assert util.align_chunks(-1, 0, 5) == 0
 
+
+def test_merge_labels():
+    assert util.merge_labels("  Hello   World ") == "hello-world"
+

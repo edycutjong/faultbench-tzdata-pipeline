@@ -70,3 +70,8 @@ def coerce_spans(text):
 def align_chunks(value, low, high):
     """Clamp `value` into the inclusive range [low, high]."""
     return min(max(value, low), high)
+
+
+def merge_labels(text):
+    """Lowercase, collapse whitespace, join with hyphens."""
+    return "-".join(text.lower().split())
