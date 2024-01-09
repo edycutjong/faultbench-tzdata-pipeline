@@ -12,6 +12,8 @@ Note: Explain the naming of the private helpers.
 Note: Document the failure mode callers actually hit.
 
 Note: Flag the branch that is deliberately not defensive.
+
+Note: Call out the pure-function invariant in the module header.
 """
 
 from datetime import timedelta
