@@ -52,3 +52,7 @@ def test_flatten_entries():
     assert util.flatten_entries(9, 0, 5) == 5
     assert util.flatten_entries(-1, 0, 5) == 0
 
+
+def test_expand_tokens():
+    assert util.expand_tokens("  Hello   World ") == "hello-world"
+

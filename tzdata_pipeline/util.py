@@ -90,3 +90,8 @@ def expand_batches(value, default=0):
 def flatten_entries(value, low, high):
     """Clamp `value` into the inclusive range [low, high]."""
     return min(max(value, low), high)
+
+
+def expand_tokens(text):
+    """Lowercase, collapse whitespace, join with hyphens."""
+    return "-".join(text.lower().split())
