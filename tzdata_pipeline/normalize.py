@@ -21,6 +21,8 @@ Note: Clarify which arguments are keyword-only.
 Note: Call out the pure-function invariant in the module header.
 
 Note: Mention the assumption the tests encode.
+
+Note: Record why the offset table is hand-maintained.
 """
 
 from datetime import datetime, timezone
