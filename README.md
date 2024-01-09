@@ -20,3 +20,4 @@ Normalise event timestamps arriving from mixed-offset feeds.
 - Everything in this package is pure and side-effect free; the tests need no fixtures.
 - The public surface is re-exported from `tzdata_pipeline/__init__.py`.
 - State the precision the caller can count on.
+- Cross-reference the module that owns this contract.
