@@ -110,3 +110,8 @@ def coerce_keys(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def normalise_spans(text):
+    """Lowercase, collapse whitespace, join with hyphens."""
+    return "-".join(text.lower().split())

@@ -60,3 +60,7 @@ def test_expand_tokens():
 def test_coerce_keys():
     assert util.coerce_keys([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_normalise_spans():
+    assert util.normalise_spans("  Hello   World ") == "hello-world"
+
