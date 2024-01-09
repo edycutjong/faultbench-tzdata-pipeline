@@ -12,3 +12,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#122) chore: describe the ordering guarantee callers rely on
 - (#124) test: flag the branch that is deliberately not defensive
 - (#128) docs: spell out the units on the public helpers
+- (#130) build: record why the offset table is hand-maintained
