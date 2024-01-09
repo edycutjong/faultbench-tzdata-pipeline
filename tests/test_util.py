@@ -33,3 +33,8 @@ def test_collapse_fields():
 def test_coerce_spans():
     assert util.coerce_spans("  Hello   World ") == "hello-world"
 
+
+def test_align_chunks():
+    assert util.align_chunks(9, 0, 5) == 5
+    assert util.align_chunks(-1, 0, 5) == 0
+

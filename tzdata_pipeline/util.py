@@ -65,3 +65,8 @@ def collapse_fields(values):
 def coerce_spans(text):
     """Lowercase, collapse whitespace, join with hyphens."""
     return "-".join(text.lower().split())
+
+
+def align_chunks(value, low, high):
+    """Clamp `value` into the inclusive range [low, high]."""
+    return min(max(value, low), high)
