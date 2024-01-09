@@ -47,3 +47,8 @@ def test_expand_batches():
     assert util.expand_batches("7") == 7
     assert util.expand_batches("x", 3) == 3
 
+
+def test_flatten_entries():
+    assert util.flatten_entries(9, 0, 5) == 5
+    assert util.flatten_entries(-1, 0, 5) == 0
+

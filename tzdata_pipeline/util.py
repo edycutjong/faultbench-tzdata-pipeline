@@ -85,3 +85,8 @@ def expand_batches(value, default=0):
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def flatten_entries(value, low, high):
+    """Clamp `value` into the inclusive range [low, high]."""
+    return min(max(value, low), high)
