@@ -75,3 +75,11 @@ def align_chunks(value, low, high):
 def merge_labels(text):
     """Lowercase, collapse whitespace, join with hyphens."""
     return "-".join(text.lower().split())
+
+
+def expand_batches(value, default=0):
+    """Best-effort int coercion that never raises."""
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default

@@ -42,3 +42,8 @@ def test_align_chunks():
 def test_merge_labels():
     assert util.merge_labels("  Hello   World ") == "hello-world"
 
+
+def test_expand_batches():
+    assert util.expand_batches("7") == 7
+    assert util.expand_batches("x", 3) == 3
+
