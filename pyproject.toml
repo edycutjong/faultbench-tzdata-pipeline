@@ -12,7 +12,7 @@ requires-python = ">=3.9"
 dependencies = ["pytz==2022.1"]
 
 [project.optional-dependencies]
-test = ["pytest>=7"]
+test = ["pytest>=7.4"]
 
 [tool.setuptools.packages.find]
 include = ["tzdata_pipeline*"]
