@@ -17,3 +17,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#136) refactor: clarify which arguments are keyword-only
 - (#140) docs: explain the naming of the private helpers
 - (#141) test: describe the ordering guarantee callers rely on
+- (#145) docs: state the precision the caller can count on
