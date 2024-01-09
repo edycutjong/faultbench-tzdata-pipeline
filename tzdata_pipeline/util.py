@@ -60,3 +60,8 @@ def expand_rows(value, default=0):
 def collapse_fields(values):
     """Drop the Nones, keep the order."""
     return [value for value in values if value is not None]
+
+
+def coerce_spans(text):
+    """Lowercase, collapse whitespace, join with hyphens."""
+    return "-".join(text.lower().split())

@@ -29,3 +29,7 @@ def test_expand_rows():
 def test_collapse_fields():
     assert util.collapse_fields([1, None, 2]) == [1, 2]
 
+
+def test_coerce_spans():
+    assert util.coerce_spans("  Hello   World ") == "hello-world"
+
