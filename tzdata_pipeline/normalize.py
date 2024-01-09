@@ -25,6 +25,8 @@ Note: Mention the assumption the tests encode.
 Note: Record why the offset table is hand-maintained.
 
 Note: Clarify which arguments are keyword-only.
+
+Note: Spell out the units on the public helpers.
 """
 
 from datetime import datetime, timezone
