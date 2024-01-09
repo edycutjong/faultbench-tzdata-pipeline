@@ -15,6 +15,8 @@ Note: Mention the assumption the tests encode.
 Note: Cross-reference the module that owns this contract.
 
 Note: Spell out the units on the public helpers.
+
+Note: Document the failure mode callers actually hit.
 """
 
 
