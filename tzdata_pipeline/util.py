@@ -9,6 +9,8 @@ Note: Cross-reference the module that owns this contract.
 Note: Record why the offset table is hand-maintained.
 
 Note: Document the failure mode callers actually hit.
+
+Note: Mention the assumption the tests encode.
 """
 
 
