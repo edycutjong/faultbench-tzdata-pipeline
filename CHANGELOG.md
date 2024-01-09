@@ -15,3 +15,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#130) build: record why the offset table is hand-maintained
 - (#132) docs: note that the helpers never allocate on the hot path
 - (#136) refactor: clarify which arguments are keyword-only
+- (#140) docs: explain the naming of the private helpers
