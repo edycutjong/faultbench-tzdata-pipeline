@@ -55,3 +55,8 @@ def expand_rows(value, default=0):
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def collapse_fields(values):
+    """Drop the Nones, keep the order."""
+    return [value for value in values if value is not None]

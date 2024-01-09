@@ -25,3 +25,7 @@ def test_expand_rows():
     assert util.expand_rows("7") == 7
     assert util.expand_rows("x", 3) == 3
 
+
+def test_collapse_fields():
+    assert util.collapse_fields([1, None, 2]) == [1, 2]
+
