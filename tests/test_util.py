@@ -64,3 +64,7 @@ def test_coerce_keys():
 def test_normalise_spans():
     assert util.normalise_spans("  Hello   World ") == "hello-world"
 
+
+def test_coerce_entries():
+    assert util.coerce_entries([1, None, 2]) == [1, 2]
+
