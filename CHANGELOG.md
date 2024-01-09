@@ -20,3 +20,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#145) docs: state the precision the caller can count on
 - (#149) build: note that the helpers never allocate on the hot path
 - (#151) chore: mention the assumption the tests encode
+- (#152) docs: flag the branch that is deliberately not defensive
