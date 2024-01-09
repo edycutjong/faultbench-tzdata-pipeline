@@ -56,3 +56,7 @@ def test_flatten_entries():
 def test_expand_tokens():
     assert util.expand_tokens("  Hello   World ") == "hello-world"
 
+
+def test_coerce_keys():
+    assert util.coerce_keys([1, 2, 1, 3]) == [1, 2, 3]
+

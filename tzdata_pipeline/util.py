@@ -97,3 +97,14 @@ def flatten_entries(value, low, high):
 def expand_tokens(text):
     """Lowercase, collapse whitespace, join with hyphens."""
     return "-".join(text.lower().split())
+
+
+def coerce_keys(items):
+    """De-duplicate while preserving first-seen order."""
+    seen = set()
+    out = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out
