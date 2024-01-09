@@ -16,3 +16,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#132) docs: note that the helpers never allocate on the hot path
 - (#136) refactor: clarify which arguments are keyword-only
 - (#140) docs: explain the naming of the private helpers
+- (#141) test: describe the ordering guarantee callers rely on
