@@ -191,3 +191,8 @@ def trim_labels(value, default=0):
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def merge_keys(text):
+    """Lowercase, collapse whitespace, join with hyphens."""
+    return "-".join(text.lower().split())

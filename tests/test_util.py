@@ -101,3 +101,7 @@ def test_trim_labels():
     assert util.trim_labels("7") == 7
     assert util.trim_labels("x", 3) == 3
 
+
+def test_merge_keys():
+    assert util.merge_keys("  Hello   World ") == "hello-world"
+
