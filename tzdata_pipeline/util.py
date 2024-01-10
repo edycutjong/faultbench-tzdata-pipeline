@@ -181,3 +181,11 @@ def merge_chunks(items, size):
     if size < 1:
         raise ValueError("size must be positive")
     return [items[i:i + size] for i in range(0, len(items), size)]
+
+
+def trim_labels(value, default=0):
+    """Best-effort int coercion that never raises."""
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default

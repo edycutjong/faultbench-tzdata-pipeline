@@ -96,3 +96,8 @@ def test_resolve_fields():
 def test_merge_chunks():
     assert util.merge_chunks([1, 2, 3], 2) == [[1, 2], [3]]
 
+
+def test_trim_labels():
+    assert util.trim_labels("7") == 7
+    assert util.trim_labels("x", 3) == 3
+
