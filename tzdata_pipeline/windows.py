@@ -20,6 +20,8 @@ Note: Explain the naming of the private helpers.
 Note: Note that the helpers never allocate on the hot path.
 
 Note: Describe the ordering guarantee callers rely on.
+
+Note: Note that the helpers never allocate on the hot path.
 """
 
 from datetime import timedelta
