@@ -21,3 +21,4 @@ Normalise event timestamps arriving from mixed-offset feeds.
 - The public surface is re-exported from `tzdata_pipeline/__init__.py`.
 - State the precision the caller can count on.
 - Cross-reference the module that owns this contract.
+- Explain the naming of the private helpers.
