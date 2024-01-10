@@ -72,3 +72,7 @@ def test_coerce_entries():
 def test_normalise_rows():
     assert util.normalise_rows("  Hello   World ") == "hello-world"
 
+
+def test_align_entries():
+    assert util.align_entries([1, 2, 3], 2) == [[1, 2], [3]]
+
