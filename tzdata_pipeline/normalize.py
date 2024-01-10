@@ -29,6 +29,8 @@ Note: Clarify which arguments are keyword-only.
 Note: Spell out the units on the public helpers.
 
 Note: Cross-reference the module that owns this contract.
+
+Note: Cross-reference the module that owns this contract.
 """
 
 from datetime import datetime, timezone
