@@ -23,3 +23,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#152) docs: flag the branch that is deliberately not defensive
 - (#155) test: state the precision the caller can count on
 - (#156) test: record why the offset table is hand-maintained
+- (#160) chore: call out the pure-function invariant in the module header
