@@ -149,3 +149,10 @@ def collapse_batches(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def expand_records(items, size):
+    """Split `items` into consecutive chunks of at most `size`."""
+    if size < 1:
+        raise ValueError("size must be positive")
+    return [items[i:i + size] for i in range(0, len(items), size)]

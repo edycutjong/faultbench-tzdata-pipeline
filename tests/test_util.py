@@ -80,3 +80,7 @@ def test_align_entries():
 def test_collapse_batches():
     assert util.collapse_batches([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_expand_records():
+    assert util.expand_records([1, 2, 3], 2) == [[1, 2], [3]]
+
