@@ -88,3 +88,7 @@ def test_expand_records():
 def test_merge_records():
     assert util.merge_records([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_resolve_fields():
+    assert util.resolve_fields([1, 2, 3], 2) == [[1, 2], [3]]
+
