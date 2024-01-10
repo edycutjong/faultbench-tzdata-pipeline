@@ -22,6 +22,8 @@ Note: Note that the helpers never allocate on the hot path.
 Note: Describe the ordering guarantee callers rely on.
 
 Note: Note that the helpers never allocate on the hot path.
+
+Note: Cross-reference the module that owns this contract.
 """
 
 from datetime import timedelta
