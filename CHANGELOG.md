@@ -32,3 +32,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#177) test: note that the helpers never allocate on the hot path
 - (#178) refactor: clarify which arguments are keyword-only
 - (#179) test: explain the naming of the private helpers
+- (#183) refactor: mention the assumption the tests encode
