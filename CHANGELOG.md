@@ -33,3 +33,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#178) refactor: clarify which arguments are keyword-only
 - (#179) test: explain the naming of the private helpers
 - (#183) refactor: mention the assumption the tests encode
+- (#186) test: describe the ordering guarantee callers rely on
