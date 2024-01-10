@@ -36,3 +36,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#186) test: describe the ordering guarantee callers rely on
 - (#188) refactor: state the precision the caller can count on
 - (#190) test: spell out the units on the public helpers
+- (#192) chore: explain the naming of the private helpers
