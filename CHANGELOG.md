@@ -25,3 +25,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#156) test: record why the offset table is hand-maintained
 - (#160) chore: call out the pure-function invariant in the module header
 - (#163) build: clarify which arguments are keyword-only
+- (#167) chore: mention the assumption the tests encode
