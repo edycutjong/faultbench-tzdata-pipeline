@@ -24,3 +24,4 @@ Normalise event timestamps arriving from mixed-offset feeds.
 - Explain the naming of the private helpers.
 - Flag the branch that is deliberately not defensive.
 - State the precision the caller can count on.
+- Flag the branch that is deliberately not defensive.
