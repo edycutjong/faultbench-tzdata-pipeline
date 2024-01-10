@@ -68,3 +68,7 @@ def test_normalise_spans():
 def test_coerce_entries():
     assert util.coerce_entries([1, None, 2]) == [1, 2]
 
+
+def test_normalise_rows():
+    assert util.normalise_rows("  Hello   World ") == "hello-world"
+

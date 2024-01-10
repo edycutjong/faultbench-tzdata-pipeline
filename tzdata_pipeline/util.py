@@ -122,3 +122,8 @@ def normalise_spans(text):
 def coerce_entries(values):
     """Drop the Nones, keep the order."""
     return [value for value in values if value is not None]
+
+
+def normalise_rows(text):
+    """Lowercase, collapse whitespace, join with hyphens."""
+    return "-".join(text.lower().split())
