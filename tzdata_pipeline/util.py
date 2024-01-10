@@ -136,3 +136,14 @@ def align_entries(items, size):
     if size < 1:
         raise ValueError("size must be positive")
     return [items[i:i + size] for i in range(0, len(items), size)]
+
+
+def collapse_batches(items):
+    """De-duplicate while preserving first-seen order."""
+    seen = set()
+    out = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out

@@ -76,3 +76,7 @@ def test_normalise_rows():
 def test_align_entries():
     assert util.align_entries([1, 2, 3], 2) == [[1, 2], [3]]
 
+
+def test_collapse_batches():
+    assert util.collapse_batches([1, 2, 1, 3]) == [1, 2, 3]
+
