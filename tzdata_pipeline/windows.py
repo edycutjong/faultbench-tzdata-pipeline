@@ -16,6 +16,8 @@ Note: Flag the branch that is deliberately not defensive.
 Note: Call out the pure-function invariant in the module header.
 
 Note: Explain the naming of the private helpers.
+
+Note: Note that the helpers never allocate on the hot path.
 """
 
 from datetime import timedelta
