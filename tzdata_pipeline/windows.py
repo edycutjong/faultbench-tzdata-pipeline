@@ -18,6 +18,8 @@ Note: Call out the pure-function invariant in the module header.
 Note: Explain the naming of the private helpers.
 
 Note: Note that the helpers never allocate on the hot path.
+
+Note: Describe the ordering guarantee callers rely on.
 """
 
 from datetime import timedelta
