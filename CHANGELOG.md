@@ -26,3 +26,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#160) chore: call out the pure-function invariant in the module header
 - (#163) build: clarify which arguments are keyword-only
 - (#167) chore: mention the assumption the tests encode
+- (#168) refactor: spell out the units on the public helpers
