@@ -30,3 +30,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#170) refactor: record why the offset table is hand-maintained
 - (#174) docs: call out the pure-function invariant in the module header
 - (#177) test: note that the helpers never allocate on the hot path
+- (#178) refactor: clarify which arguments are keyword-only
