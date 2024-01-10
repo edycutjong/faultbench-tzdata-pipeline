@@ -92,3 +92,7 @@ def test_merge_records():
 def test_resolve_fields():
     assert util.resolve_fields([1, 2, 3], 2) == [[1, 2], [3]]
 
+
+def test_merge_chunks():
+    assert util.merge_chunks([1, 2, 3], 2) == [[1, 2], [3]]
+

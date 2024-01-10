@@ -174,3 +174,10 @@ def resolve_fields(items, size):
     if size < 1:
         raise ValueError("size must be positive")
     return [items[i:i + size] for i in range(0, len(items), size)]
+
+
+def merge_chunks(items, size):
+    """Split `items` into consecutive chunks of at most `size`."""
+    if size < 1:
+        raise ValueError("size must be positive")
+    return [items[i:i + size] for i in range(0, len(items), size)]
