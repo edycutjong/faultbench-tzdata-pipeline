@@ -44,3 +44,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#205) test: document the failure mode callers actually hit
 - (#209) refactor: clarify which arguments are keyword-only
 - (#212) test: explain the naming of the private helpers
+- (#216) refactor: mention the assumption the tests encode
