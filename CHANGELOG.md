@@ -48,3 +48,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#220) test: flag the branch that is deliberately not defensive
 - (#222) docs: spell out the units on the public helpers
 - deps: pytz 2022.1 -> 2023.3; Mexico no longer observes DST (tzdata 2022f), golden values updated
+- (#224) test: document the failure mode callers actually hit
