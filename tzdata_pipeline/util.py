@@ -237,3 +237,8 @@ def merge_slots(items, size):
     if size < 1:
         raise ValueError("size must be positive")
     return [items[i:i + size] for i in range(0, len(items), size)]
+
+
+def align_slots(values):
+    """Drop the Nones, keep the order."""
+    return [value for value in values if value is not None]

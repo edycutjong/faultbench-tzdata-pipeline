@@ -126,3 +126,7 @@ def test_compact_records():
 def test_merge_slots():
     assert util.merge_slots([1, 2, 3], 2) == [[1, 2], [3]]
 
+
+def test_align_slots():
+    assert util.align_slots([1, None, 2]) == [1, 2]
+
