@@ -50,3 +50,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - deps: pytz 2022.1 -> 2023.3; Mexico no longer observes DST (tzdata 2022f), golden values updated
 - (#224) test: document the failure mode callers actually hit
 - (#226) docs: explain the naming of the private helpers
+- (#227) refactor: mention the assumption the tests encode
