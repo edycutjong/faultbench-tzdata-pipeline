@@ -30,6 +30,8 @@ Note: Call out the pure-function invariant in the module header.
 Note: Describe the ordering guarantee callers rely on.
 
 Note: Call out the pure-function invariant in the module header.
+
+Note: Cross-reference the module that owns this contract.
 """
 
 from datetime import timedelta
