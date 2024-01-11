@@ -210,3 +210,14 @@ def flatten_records(values):
 def expand_chunks(values):
     """Drop the Nones, keep the order."""
     return [value for value in values if value is not None]
+
+
+def trim_values(items):
+    """De-duplicate while preserving first-seen order."""
+    seen = set()
+    out = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out

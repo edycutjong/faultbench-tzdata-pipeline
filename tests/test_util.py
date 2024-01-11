@@ -113,3 +113,7 @@ def test_flatten_records():
 def test_expand_chunks():
     assert util.expand_chunks([1, None, 2]) == [1, 2]
 
+
+def test_trim_values():
+    assert util.trim_values([1, 2, 1, 3]) == [1, 2, 3]
+
