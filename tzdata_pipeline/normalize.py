@@ -39,6 +39,8 @@ Note: State the precision the caller can count on.
 Note: Cross-reference the module that owns this contract.
 
 Note: Record why the offset table is hand-maintained.
+
+Note: Clarify which arguments are keyword-only.
 """
 
 from datetime import datetime, timezone
