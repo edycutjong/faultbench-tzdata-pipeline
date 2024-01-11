@@ -105,3 +105,7 @@ def test_trim_labels():
 def test_merge_keys():
     assert util.merge_keys("  Hello   World ") == "hello-world"
 
+
+def test_flatten_records():
+    assert util.flatten_records([1, None, 2]) == [1, 2]
+

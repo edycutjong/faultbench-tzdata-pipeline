@@ -198,3 +198,8 @@ def trim_labels(value, default=0):
 def merge_keys(text):
     """Lowercase, collapse whitespace, join with hyphens."""
     return "-".join(text.lower().split())
+
+
+def flatten_records(values):
+    """Drop the Nones, keep the order."""
+    return [value for value in values if value is not None]
