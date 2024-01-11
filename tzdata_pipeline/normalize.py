@@ -70,12 +70,12 @@ def zone_for(name):
 def to_utc(moment, zone):
     """Convert `moment` to UTC.
 
-    A naive `moment` is *local wall-clock time in `zone`*, so it has to be localised in
-    that zone, with the zone's rules for that date, before conversion. An aware `moment`
-    already carries its own offset and `zone` is ignored.
+    A naive `moment` is *local wall-clock time in `zone`*, so it is given that zone's
+    tzinfo directly before conversion. An aware `moment` already carries its own offset
+    and `zone` is ignored.
     """
     if moment.tzinfo is None:
-        moment = zone_for(zone).localize(moment)
+        moment = moment.replace(tzinfo=zone_for(zone))
     return moment.astimezone(timezone.utc)
 
 
