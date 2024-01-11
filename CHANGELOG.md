@@ -45,3 +45,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#209) refactor: clarify which arguments are keyword-only
 - (#212) test: explain the naming of the private helpers
 - (#216) refactor: mention the assumption the tests encode
+- (#220) test: flag the branch that is deliberately not defensive
