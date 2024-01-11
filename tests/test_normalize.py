@@ -34,10 +34,10 @@ def test_aware_input_keeps_its_own_offset():
 
 
 def test_naive_local_midnight_is_interpreted_in_zone():
-    # Golden value for the pinned tz database: Mexico City observes daylight saving
-    # time in July 2023, so local midnight is 05:00 UTC.
+    # Golden value for the pinned tz database: Mexico abolished daylight saving time
+    # from 2022-10-30 (tzdata 2022f), so in July 2023 local midnight is 06:00 UTC.
     naive = datetime(2023, 7, 1, 0, 0)
-    assert to_utc(naive, "America/Mexico_City") == datetime(2023, 7, 1, 5, 0, tzinfo=timezone.utc)
+    assert to_utc(naive, "America/Mexico_City") == datetime(2023, 7, 1, 6, 0, tzinfo=timezone.utc)
 
 
 def test_jakarta_has_no_daylight_saving():
