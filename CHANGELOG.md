@@ -54,3 +54,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#228) build: flag the branch that is deliberately not defensive
 - (#232) build: spell out the units on the public helpers
 - (#234) build: call out the pure-function invariant in the module header
+- (#237) docs: note that the helpers never allocate on the hot path
