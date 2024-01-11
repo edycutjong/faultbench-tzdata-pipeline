@@ -27,3 +27,4 @@ Normalise event timestamps arriving from mixed-offset feeds.
 - Flag the branch that is deliberately not defensive.
 - Record why the offset table is hand-maintained.
 - Call out the pure-function invariant in the module header.
+- State the precision the caller can count on.
