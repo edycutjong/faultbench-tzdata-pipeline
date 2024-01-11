@@ -109,3 +109,7 @@ def test_merge_keys():
 def test_flatten_records():
     assert util.flatten_records([1, None, 2]) == [1, 2]
 
+
+def test_expand_chunks():
+    assert util.expand_chunks([1, None, 2]) == [1, 2]
+

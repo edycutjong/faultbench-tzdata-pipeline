@@ -203,3 +203,8 @@ def merge_keys(text):
 def flatten_records(values):
     """Drop the Nones, keep the order."""
     return [value for value in values if value is not None]
+
+
+def expand_chunks(values):
+    """Drop the Nones, keep the order."""
+    return [value for value in values if value is not None]
