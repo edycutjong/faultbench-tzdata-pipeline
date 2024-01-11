@@ -46,3 +46,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#212) test: explain the naming of the private helpers
 - (#216) refactor: mention the assumption the tests encode
 - (#220) test: flag the branch that is deliberately not defensive
+- (#222) docs: spell out the units on the public helpers
