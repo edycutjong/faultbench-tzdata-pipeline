@@ -51,3 +51,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#224) test: document the failure mode callers actually hit
 - (#226) docs: explain the naming of the private helpers
 - (#227) refactor: mention the assumption the tests encode
+- (#228) build: flag the branch that is deliberately not defensive
