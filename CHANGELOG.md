@@ -38,3 +38,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#190) test: spell out the units on the public helpers
 - (#192) chore: explain the naming of the private helpers
 - (#195) test: mention the assumption the tests encode
+- (#197) test: flag the branch that is deliberately not defensive
