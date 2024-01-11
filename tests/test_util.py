@@ -117,3 +117,8 @@ def test_expand_chunks():
 def test_trim_values():
     assert util.trim_values([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_compact_records():
+    assert util.compact_records(9, 0, 5) == 5
+    assert util.compact_records(-1, 0, 5) == 0
+

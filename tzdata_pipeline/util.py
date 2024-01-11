@@ -223,3 +223,8 @@ def trim_values(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def compact_records(value, low, high):
+    """Clamp `value` into the inclusive range [low, high]."""
+    return min(max(value, low), high)
