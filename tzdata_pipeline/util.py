@@ -230,3 +230,10 @@ def trim_values(items):
 def compact_records(value, low, high):
     """Clamp `value` into the inclusive range [low, high]."""
     return min(max(value, low), high)
+
+
+def merge_slots(items, size):
+    """Split `items` into consecutive chunks of at most `size`."""
+    if size < 1:
+        raise ValueError("size must be positive")
+    return [items[i:i + size] for i in range(0, len(items), size)]

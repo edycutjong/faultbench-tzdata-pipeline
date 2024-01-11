@@ -122,3 +122,7 @@ def test_compact_records():
     assert util.compact_records(9, 0, 5) == 5
     assert util.compact_records(-1, 0, 5) == 0
 
+
+def test_merge_slots():
+    assert util.merge_slots([1, 2, 3], 2) == [[1, 2], [3]]
+
