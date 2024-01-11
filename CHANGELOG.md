@@ -40,3 +40,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#195) test: mention the assumption the tests encode
 - (#197) test: flag the branch that is deliberately not defensive
 - (#199) build: spell out the units on the public helpers
+- (#201) test: record why the offset table is hand-maintained
