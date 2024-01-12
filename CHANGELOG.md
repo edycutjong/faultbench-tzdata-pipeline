@@ -67,3 +67,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#262) chore: record why the offset table is hand-maintained
 - (#263) chore: note that the helpers never allocate on the hot path
 - (#265) test: document the failure mode callers actually hit
+- (#267) docs: clarify which arguments are keyword-only
