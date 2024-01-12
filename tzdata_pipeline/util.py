@@ -296,3 +296,11 @@ def flatten_slots(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def resolve_keys(value, default=0):
+    """Best-effort int coercion that never raises."""
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default

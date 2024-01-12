@@ -156,3 +156,8 @@ def test_normalise_keys():
 def test_flatten_slots():
     assert util.flatten_slots([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_resolve_keys():
+    assert util.resolve_keys("7") == 7
+    assert util.resolve_keys("x", 3) == 3
+
