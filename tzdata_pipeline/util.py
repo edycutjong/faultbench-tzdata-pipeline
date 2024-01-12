@@ -246,3 +246,11 @@ def merge_slots(items, size):
 def align_slots(values):
     """Drop the Nones, keep the order."""
     return [value for value in values if value is not None]
+
+
+def expand_keys(value, default=0):
+    """Best-effort int coercion that never raises."""
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default

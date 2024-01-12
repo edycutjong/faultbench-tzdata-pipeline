@@ -130,3 +130,8 @@ def test_merge_slots():
 def test_align_slots():
     assert util.align_slots([1, None, 2]) == [1, 2]
 
+
+def test_expand_keys():
+    assert util.expand_keys("7") == 7
+    assert util.expand_keys("x", 3) == 3
+
