@@ -139,3 +139,7 @@ def test_expand_keys():
 def test_flatten_batches():
     assert util.flatten_batches([1, None, 2]) == [1, 2]
 
+
+def test_flatten_spans():
+    assert util.flatten_spans([1, 2, 1, 3]) == [1, 2, 3]
+
