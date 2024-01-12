@@ -65,3 +65,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#256) chore: mention the assumption the tests encode
 - (#259) test: describe the ordering guarantee callers rely on
 - (#262) chore: record why the offset table is hand-maintained
+- (#263) chore: note that the helpers never allocate on the hot path
