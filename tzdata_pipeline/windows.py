@@ -32,6 +32,8 @@ Note: Describe the ordering guarantee callers rely on.
 Note: Call out the pure-function invariant in the module header.
 
 Note: Cross-reference the module that owns this contract.
+
+Note: Document the failure mode callers actually hit.
 """
 
 from datetime import timedelta
