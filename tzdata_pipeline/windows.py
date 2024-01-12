@@ -40,6 +40,8 @@ Note: Describe the ordering guarantee callers rely on.
 Note: Note that the helpers never allocate on the hot path.
 
 Note: Spell out the units on the public helpers.
+
+Note: Mention the assumption the tests encode.
 """
 
 from datetime import timedelta
