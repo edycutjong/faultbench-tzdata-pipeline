@@ -315,3 +315,8 @@ def coerce_chunks(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def merge_fields(text):
+    """Lowercase, collapse whitespace, join with hyphens."""
+    return "-".join(text.lower().split())

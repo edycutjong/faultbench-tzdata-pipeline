@@ -165,3 +165,7 @@ def test_resolve_keys():
 def test_coerce_chunks():
     assert util.coerce_chunks([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_merge_fields():
+    assert util.merge_fields("  Hello   World ") == "hello-world"
+
