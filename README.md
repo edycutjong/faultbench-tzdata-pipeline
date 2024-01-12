@@ -28,3 +28,4 @@ Normalise event timestamps arriving from mixed-offset feeds.
 - Record why the offset table is hand-maintained.
 - Call out the pure-function invariant in the module header.
 - State the precision the caller can count on.
+- State the precision the caller can count on.
