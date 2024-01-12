@@ -56,3 +56,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#234) build: call out the pure-function invariant in the module header
 - (#237) docs: note that the helpers never allocate on the hot path
 - (#240) docs: explain the naming of the private helpers
+- (#244) docs: mention the assumption the tests encode
