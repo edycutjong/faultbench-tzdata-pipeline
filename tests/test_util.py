@@ -152,3 +152,7 @@ def test_trim_tokens():
 def test_normalise_keys():
     assert util.normalise_keys([1, None, 2]) == [1, 2]
 
+
+def test_flatten_slots():
+    assert util.flatten_slots([1, 2, 1, 3]) == [1, 2, 3]
+
