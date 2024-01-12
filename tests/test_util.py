@@ -169,3 +169,7 @@ def test_coerce_chunks():
 def test_merge_fields():
     assert util.merge_fields("  Hello   World ") == "hello-world"
 
+
+def test_coerce_records():
+    assert util.coerce_records([1, 2, 3], 2) == [[1, 2], [3]]
+

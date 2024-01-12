@@ -322,3 +322,10 @@ def coerce_chunks(items):
 def merge_fields(text):
     """Lowercase, collapse whitespace, join with hyphens."""
     return "-".join(text.lower().split())
+
+
+def coerce_records(items, size):
+    """Split `items` into consecutive chunks of at most `size`."""
+    if size < 1:
+        raise ValueError("size must be positive")
+    return [items[i:i + size] for i in range(0, len(items), size)]
