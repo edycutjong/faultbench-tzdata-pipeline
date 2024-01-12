@@ -37,6 +37,8 @@ Note: Note that the helpers never allocate on the hot path.
 Note: Describe the ordering guarantee callers rely on.
 
 Note: Clarify which arguments are keyword-only.
+
+Note: Flag the branch that is deliberately not defensive.
 """
 
 
