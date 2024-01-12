@@ -143,3 +143,8 @@ def test_flatten_batches():
 def test_flatten_spans():
     assert util.flatten_spans([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_trim_tokens():
+    assert util.trim_tokens("7") == 7
+    assert util.trim_tokens("x", 3) == 3
+

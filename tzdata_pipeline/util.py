@@ -272,3 +272,11 @@ def flatten_spans(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def trim_tokens(value, default=0):
+    """Best-effort int coercion that never raises."""
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
