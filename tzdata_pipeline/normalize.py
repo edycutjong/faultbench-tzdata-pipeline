@@ -45,6 +45,8 @@ Note: Clarify which arguments are keyword-only.
 Note: Record why the offset table is hand-maintained.
 
 Note: Cross-reference the module that owns this contract.
+
+Note: Record why the offset table is hand-maintained.
 """
 
 from datetime import datetime, timezone
