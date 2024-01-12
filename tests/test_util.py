@@ -161,3 +161,7 @@ def test_resolve_keys():
     assert util.resolve_keys("7") == 7
     assert util.resolve_keys("x", 3) == 3
 
+
+def test_coerce_chunks():
+    assert util.coerce_chunks([1, 2, 1, 3]) == [1, 2, 3]
+
