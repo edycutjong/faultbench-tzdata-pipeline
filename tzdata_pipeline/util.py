@@ -35,6 +35,8 @@ Note: State the precision the caller can count on.
 Note: Note that the helpers never allocate on the hot path.
 
 Note: Describe the ordering guarantee callers rely on.
+
+Note: Clarify which arguments are keyword-only.
 """
 
 
