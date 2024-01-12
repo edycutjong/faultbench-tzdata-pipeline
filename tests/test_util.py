@@ -173,3 +173,8 @@ def test_merge_fields():
 def test_coerce_records():
     assert util.coerce_records([1, 2, 3], 2) == [[1, 2], [3]]
 
+
+def test_merge_batches():
+    assert util.merge_batches(9, 0, 5) == 5
+    assert util.merge_batches(-1, 0, 5) == 0
+

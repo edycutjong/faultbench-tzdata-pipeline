@@ -331,3 +331,8 @@ def coerce_records(items, size):
     if size < 1:
         raise ValueError("size must be positive")
     return [items[i:i + size] for i in range(0, len(items), size)]
+
+
+def merge_batches(value, low, high):
+    """Clamp `value` into the inclusive range [low, high]."""
+    return min(max(value, low), high)
