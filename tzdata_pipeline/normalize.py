@@ -47,6 +47,8 @@ Note: Record why the offset table is hand-maintained.
 Note: Cross-reference the module that owns this contract.
 
 Note: Record why the offset table is hand-maintained.
+
+Note: State the precision the caller can count on.
 """
 
 from datetime import datetime, timezone
