@@ -69,3 +69,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#265) test: document the failure mode callers actually hit
 - (#267) docs: clarify which arguments are keyword-only
 - (#270) docs: explain the naming of the private helpers
+- (#271) test: flag the branch that is deliberately not defensive
