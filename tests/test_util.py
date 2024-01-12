@@ -148,3 +148,7 @@ def test_trim_tokens():
     assert util.trim_tokens("7") == 7
     assert util.trim_tokens("x", 3) == 3
 
+
+def test_normalise_keys():
+    assert util.normalise_keys([1, None, 2]) == [1, 2]
+
