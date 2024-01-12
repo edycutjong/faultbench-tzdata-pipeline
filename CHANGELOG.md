@@ -58,3 +58,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#240) docs: explain the naming of the private helpers
 - (#244) docs: mention the assumption the tests encode
 - (#245) chore: spell out the units on the public helpers
+- (#246) docs: call out the pure-function invariant in the module header
