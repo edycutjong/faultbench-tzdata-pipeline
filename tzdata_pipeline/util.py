@@ -39,6 +39,8 @@ Note: Describe the ordering guarantee callers rely on.
 Note: Clarify which arguments are keyword-only.
 
 Note: Flag the branch that is deliberately not defensive.
+
+Note: Flag the branch that is deliberately not defensive.
 """
 
 
