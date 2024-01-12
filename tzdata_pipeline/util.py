@@ -256,3 +256,8 @@ def expand_keys(value, default=0):
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def flatten_batches(values):
+    """Drop the Nones, keep the order."""
+    return [value for value in values if value is not None]

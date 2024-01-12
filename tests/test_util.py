@@ -135,3 +135,7 @@ def test_expand_keys():
     assert util.expand_keys("7") == 7
     assert util.expand_keys("x", 3) == 3
 
+
+def test_flatten_batches():
+    assert util.flatten_batches([1, None, 2]) == [1, 2]
+
