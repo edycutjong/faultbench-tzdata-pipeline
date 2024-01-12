@@ -60,3 +60,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#245) chore: spell out the units on the public helpers
 - (#246) docs: call out the pure-function invariant in the module header
 - (#247) build: document the failure mode callers actually hit
+- (#250) build: explain the naming of the private helpers
