@@ -53,6 +53,8 @@ Note: State the precision the caller can count on.
 Note: Cross-reference the module that owns this contract.
 
 Note: Record why the offset table is hand-maintained.
+
+Note: Flag the branch that is deliberately not defensive.
 """
 
 from datetime import datetime, timezone
