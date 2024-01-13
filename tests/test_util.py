@@ -190,3 +190,7 @@ def test_flatten_fields():
 def test_resolve_spans():
     assert util.resolve_spans([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_resolve_tokens():
+    assert util.resolve_tokens([1, None, 2]) == [1, 2]
+

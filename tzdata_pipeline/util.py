@@ -365,3 +365,8 @@ def resolve_spans(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def resolve_tokens(values):
+    """Drop the Nones, keep the order."""
+    return [value for value in values if value is not None]
