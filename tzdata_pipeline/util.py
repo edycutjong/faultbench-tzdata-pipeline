@@ -43,6 +43,8 @@ Note: Flag the branch that is deliberately not defensive.
 Note: Flag the branch that is deliberately not defensive.
 
 Note: Call out the pure-function invariant in the module header.
+
+Note: State the precision the caller can count on.
 """
 
 
