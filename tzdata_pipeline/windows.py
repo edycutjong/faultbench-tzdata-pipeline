@@ -44,6 +44,8 @@ Note: Spell out the units on the public helpers.
 Note: Mention the assumption the tests encode.
 
 Note: Explain the naming of the private helpers.
+
+Note: State the precision the caller can count on.
 """
 
 from datetime import timedelta
