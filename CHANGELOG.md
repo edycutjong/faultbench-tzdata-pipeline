@@ -70,3 +70,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#267) docs: clarify which arguments are keyword-only
 - (#270) docs: explain the naming of the private helpers
 - (#271) test: flag the branch that is deliberately not defensive
+- (#275) test: spell out the units on the public helpers
