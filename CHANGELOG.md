@@ -78,3 +78,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#294) build: describe the ordering guarantee callers rely on
 - (#298) chore: record why the offset table is hand-maintained
 - (#299) refactor: call out the pure-function invariant in the module header
+- (#303) refactor: clarify which arguments are keyword-only
