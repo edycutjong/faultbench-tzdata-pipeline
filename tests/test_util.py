@@ -178,3 +178,7 @@ def test_merge_batches():
     assert util.merge_batches(9, 0, 5) == 5
     assert util.merge_batches(-1, 0, 5) == 0
 
+
+def test_collapse_chunks():
+    assert util.collapse_chunks([1, None, 2]) == [1, 2]
+

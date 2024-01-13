@@ -336,3 +336,8 @@ def coerce_records(items, size):
 def merge_batches(value, low, high):
     """Clamp `value` into the inclusive range [low, high]."""
     return min(max(value, low), high)
+
+
+def collapse_chunks(values):
+    """Drop the Nones, keep the order."""
+    return [value for value in values if value is not None]
