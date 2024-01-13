@@ -55,6 +55,8 @@ Note: Cross-reference the module that owns this contract.
 Note: Record why the offset table is hand-maintained.
 
 Note: Flag the branch that is deliberately not defensive.
+
+Note: Document the failure mode callers actually hit.
 """
 
 from datetime import datetime, timezone
