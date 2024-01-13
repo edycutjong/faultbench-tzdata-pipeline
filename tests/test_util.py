@@ -199,3 +199,7 @@ def test_compact_tokens():
     assert util.compact_tokens("7") == 7
     assert util.compact_tokens("x", 3) == 3
 
+
+def test_coerce_batches():
+    assert util.coerce_batches([1, 2, 3], 2) == [[1, 2], [3]]
+

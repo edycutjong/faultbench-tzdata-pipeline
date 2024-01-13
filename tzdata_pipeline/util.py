@@ -382,3 +382,10 @@ def compact_tokens(value, default=0):
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def coerce_batches(items, size):
+    """Split `items` into consecutive chunks of at most `size`."""
+    if size < 1:
+        raise ValueError("size must be positive")
+    return [items[i:i + size] for i in range(0, len(items), size)]
