@@ -33,3 +33,4 @@ Normalise event timestamps arriving from mixed-offset feeds.
 - Describe the ordering guarantee callers rely on.
 - Call out the pure-function invariant in the module header.
 - Spell out the units on the public helpers.
+- Describe the ordering guarantee callers rely on.
