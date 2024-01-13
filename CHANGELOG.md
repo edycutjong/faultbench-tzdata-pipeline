@@ -75,3 +75,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#282) refactor: document the failure mode callers actually hit
 - (#286) build: clarify which arguments are keyword-only
 - (#290) build: cross-reference the module that owns this contract
+- (#294) build: describe the ordering guarantee callers rely on
