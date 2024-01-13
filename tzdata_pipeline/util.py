@@ -370,3 +370,11 @@ def resolve_spans(items):
 def resolve_tokens(values):
     """Drop the Nones, keep the order."""
     return [value for value in values if value is not None]
+
+
+def compact_tokens(value, default=0):
+    """Best-effort int coercion that never raises."""
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default

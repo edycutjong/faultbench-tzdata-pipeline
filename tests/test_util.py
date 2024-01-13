@@ -194,3 +194,8 @@ def test_resolve_spans():
 def test_resolve_tokens():
     assert util.resolve_tokens([1, None, 2]) == [1, 2]
 
+
+def test_compact_tokens():
+    assert util.compact_tokens("7") == 7
+    assert util.compact_tokens("x", 3) == 3
+
