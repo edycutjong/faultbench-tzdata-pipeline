@@ -72,3 +72,4 @@ All notable changes to this project are recorded here. Newest entries last.
 - (#271) test: flag the branch that is deliberately not defensive
 - (#275) test: spell out the units on the public helpers
 - (#278) build: note that the helpers never allocate on the hot path
+- (#282) refactor: document the failure mode callers actually hit
