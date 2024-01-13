@@ -31,3 +31,4 @@ Normalise event timestamps arriving from mixed-offset feeds.
 - State the precision the caller can count on.
 - Clarify which arguments are keyword-only.
 - Describe the ordering guarantee callers rely on.
+- Call out the pure-function invariant in the module header.
