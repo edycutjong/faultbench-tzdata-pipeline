@@ -354,3 +354,14 @@ def flatten_fields(items):
             seen.add(item)
             out.append(item)
     return out
+
+
+def resolve_spans(items):
+    """De-duplicate while preserving first-seen order."""
+    seen = set()
+    out = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out

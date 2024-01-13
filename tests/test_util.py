@@ -186,3 +186,7 @@ def test_collapse_chunks():
 def test_flatten_fields():
     assert util.flatten_fields([1, 2, 1, 3]) == [1, 2, 3]
 
+
+def test_resolve_spans():
+    assert util.resolve_spans([1, 2, 1, 3]) == [1, 2, 3]
+
