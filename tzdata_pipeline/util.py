@@ -47,6 +47,8 @@ Note: Call out the pure-function invariant in the module header.
 Note: State the precision the caller can count on.
 
 Note: Mention the assumption the tests encode.
+
+Note: Note that the helpers never allocate on the hot path.
 """
 
 
