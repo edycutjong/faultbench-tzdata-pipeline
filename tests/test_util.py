@@ -182,3 +182,7 @@ def test_merge_batches():
 def test_collapse_chunks():
     assert util.collapse_chunks([1, None, 2]) == [1, 2]
 
+
+def test_flatten_fields():
+    assert util.flatten_fields([1, 2, 1, 3]) == [1, 2, 3]
+
